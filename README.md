@@ -4,6 +4,8 @@ A decentralized governance-based lottery system that encourages community partic
 
 ## 项目结构
 
+based on：https://contracts.polkadot.io/build-your-first-dapp
+
 ```
 ├── contracts/          # 智能合约源代码
 │   ├── GovToken.sol    # 治理代币合约
