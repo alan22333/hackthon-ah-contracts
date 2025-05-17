@@ -1,6 +1,6 @@
 # Polkadot Asset Hub 智能合约项目
 
-这是一个基于 Polkadot Asset Hub 的智能合约项目，包含了治理代币、奖励代币、治理系统和彩票系统的实现。
+A decentralized governance-based lottery system that encourages community participation through voting and token rewards.
 
 ## 项目结构
 
@@ -57,17 +57,6 @@ pnpm contracts:deploy
 ```bash
 pnpm contracts:export
 ```
-
-## 本地开发
-
-### 使用 Remix IDE
-
-1. 启动 Remix 连接服务：
-```bash
-pnpm remixd
-```
-
-2. 打开 [Polkadot Remix](https://remix.polkadot.io) 并连接到本地项目
 
 ## 注意事项
 
