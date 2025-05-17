@@ -1,0 +1,42 @@
+# 依赖目录
+node_modules/
+
+# 编译输出
+contracts/dist/
+contracts/.build/
+contracts/artifacts/
+contracts/cache/
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 合约部署历史
+contracts/.deploys/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试覆盖率报告
+coverage/
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
